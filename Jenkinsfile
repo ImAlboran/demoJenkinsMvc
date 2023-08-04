@@ -5,7 +5,7 @@ pipeine{
         stage('Build Docker Image'){
             steps {
                 script {
-                    dockerimage - docker.build('demoJenkinsMvc:latest')
+                    dockerImage - docker.build('demoJenkinsMvc:latest')
 
                 }
             }
